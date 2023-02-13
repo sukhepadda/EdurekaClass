@@ -1,6 +1,6 @@
 import React from "react";
 
-const FirstComponents = () => (
+const SecondComponents = () => (
   //we are using round because there is only 1 return value like this a = (bently) => bently;
   <div>
     <header>
@@ -10,7 +10,7 @@ const FirstComponents = () => (
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Jimmy Sheirgill
+            Jimmy Sheirgill2
           </a>
         </div>
       </nav>
@@ -18,4 +18,4 @@ const FirstComponents = () => (
   </div>
 );
 
-export default FirstComponents;
+export default SecondComponents;
