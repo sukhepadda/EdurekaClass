@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Layout = () => (
     <div>
- <Navbar bg="light" expand="lg">
+ <Navbar bg="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#home"><Link to="/">React Routings</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,6 +17,8 @@ const Layout = () => (
             <Nav.Link> <Link to="/">Home</Link></Nav.Link>
             <Nav.Link><Link to="/secondcomponent"> Second Component</Link></Nav.Link>
             <Nav.Link><Link to="/thirdcomponent"> Third Component</Link></Nav.Link>
+            <Nav.Link><Link to="/passingobject"> Passing Object</Link></Nav.Link>
+            <Nav.Link><Link to="/inputoutput"> InputOutput</Link></Nav.Link>
            
           </Nav>
         </Navbar.Collapse>
@@ -30,7 +32,6 @@ const Layout = () => (
                 <Link to="/thirdcomponent"> Third Component</Link> | 
             </p>
         </nav> */}
-        <hr />
         <Outlet />
 
     </div>
