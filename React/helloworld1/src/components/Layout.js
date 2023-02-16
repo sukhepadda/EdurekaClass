@@ -10,15 +10,15 @@ const Layout = () => (
     <div>
  <Navbar bg="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#home"><Link to="/">React Routings</Link></Navbar.Brand>
+        <Navbar.Brand ><Link to="/">React</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link> <Link to="/">Home</Link></Nav.Link>
             <Nav.Link><Link to="/secondcomponent"> Second Component</Link></Nav.Link>
-            <Nav.Link><Link to="/thirdcomponent"> Third Component</Link></Nav.Link>
             <Nav.Link><Link to="/passingobject"> Passing Object</Link></Nav.Link>
             <Nav.Link><Link to="/inputoutput"> InputOutput</Link></Nav.Link>
+            <Nav.Link><Link to="/imgslideshow"> Img Slideshow</Link></Nav.Link>
            
           </Nav>
         </Navbar.Collapse>
