@@ -31,7 +31,7 @@ const PassingObject = () => {
       <input
         type="text"
         className="form-control"
-        placeholder="Enter anything"
+        placeholder="Enter anything or just enter jay and padda"
         onChange={(e) => setname(e.target.value)}
         value={name}
       />
