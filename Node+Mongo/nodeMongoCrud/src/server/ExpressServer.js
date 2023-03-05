@@ -121,6 +121,31 @@ class ExpressServer {
       }
       run().catch(console.dir);
     });
+    this.server.put("/update", (req, res) => {
+      async function run() {
+        let cl = new MongoClient(connectionString);
+
+        try {
+          await cl.connect();
+          let db = cl.db("testing1");
+          let collection = db.collection("heroes");
+          let tempName = {"name": req.body.name,
+          "realname": req.body.realname
+        };
+          let result = await collection.updateOne({"name": tempName.name},{
+            $set: {"realname": tempName.realname}
+          });
+          console.log(result);
+          res.send({
+            msg: "delete success",
+            result: result,
+          });
+        } catch (err) {
+          console.log("erroe in try to connect mongo", err);
+        }
+      }
+      run().catch(console.dir);
+    });
 
     // listening to port
     this.server.listen(this.port, () => {
