@@ -27,7 +27,6 @@ const Layout = () => (
         {/* <nav>
             <p className="lead">
                 <Link to="/">Home</Link>  |  
-
                 <Link to="/secondcomponent"> Second Component</Link> | 
                 <Link to="/thirdcomponent"> Third Component</Link> | 
             </p>
