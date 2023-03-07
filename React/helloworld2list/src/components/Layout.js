@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-import "./Layout.css"
+import "./Layout.css";
 
 const Layout = () => (
   <div>
@@ -17,9 +17,15 @@ const Layout = () => (
             <Nav.Link>
               <Link to="/">Home</Link>
             </Nav.Link>
+
             <Nav.Link>
               <Link to="/simplelist">Simple List</Link>
             </Nav.Link>
+
+            <Nav.Link>
+              <Link to="/listwithcomponents">List With Components</Link>
+            </Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

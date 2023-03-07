@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 function SimpleList() {
   return (
     <Container className="mt-2">
-    <h2 className="mb-4">Simple List</h2>
+    <h2 className="mb-4">The Simple List</h2>
       <ListGroup>
         <ListGroup.Item variant="primary">Primary List</ListGroup.Item>
         <ListGroup.Item variant="secondary">Secondary List</ListGroup.Item>
