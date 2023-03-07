@@ -1,4 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
+import Accordion from 'react-bootstrap/Accordion';
+
 
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -24,6 +26,10 @@ const Layout = () => (
 
             <Nav.Link>
               <Link to="/listwithcomponents">List With Components</Link>
+            </Nav.Link>
+
+            <Nav.Link>
+              <Link to="/listwithaccordion">List With Accordion</Link>
             </Nav.Link>
 
           </Nav>
