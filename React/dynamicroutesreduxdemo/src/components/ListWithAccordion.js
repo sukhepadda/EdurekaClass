@@ -59,7 +59,8 @@ function ListWithAccordion() {
       <Accordion.Header>{item.text}</Accordion.Header>
       <Accordion.Body>
         <img className="img-fluid" src={item.img} placeholder="cat img" />
-        <Link to="/listwithaccordion?{item.id}">Details Here...</Link>
+        <br />
+        <Link to={`/listwithaccordion/${item.id}`}>Click Here to see Larger image</Link>
       </Accordion.Body>
     </Accordion.Item>
   );

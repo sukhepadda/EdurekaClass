@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/listwithaccordion" element={<ListWithAccordion />} />
-          <Route path="/listwithaccordion?id" element={<CatPage />} />
+          <Route path="/listwithaccordion/:id" element={<CatPage />} />
         </Routes>
       </Router>
     </div>
