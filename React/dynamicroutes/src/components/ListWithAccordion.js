@@ -68,7 +68,7 @@ function ListWithAccordion() {
   return (
     <div className="container mt-4">
       {" "}
-      <h3>List With Accordion</h3>
+      <h3>Accordion List with Dynamic Link</h3>
       <Accordion defaultActiveKey={["0"]} alwaysOpen>
         {listOfWords.map((item) => (
           <Items key={item.id} item={item} /> //we have to use id other wise data printed unordered and some data reapeat also

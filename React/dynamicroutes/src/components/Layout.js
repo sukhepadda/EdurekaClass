@@ -21,7 +21,7 @@ const Layout = () => (
             </Nav.Link>
 
             <Nav.Link>
-              <Link to="/listwithaccordion">List With Accordion</Link>
+              <Link to="/listwithaccordion"> Accordion List with Dynamic Link</Link>
             </Nav.Link>
 
           </Nav>
