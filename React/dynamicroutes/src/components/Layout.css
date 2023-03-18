@@ -1,0 +1,11 @@
+.navbar-brand {  
+    color: #fff !important;
+}.navbar-toggler {
+    background-color: #fff !important;  
+}
+.nav-link > a{
+    color: rgb(68, 68, 187) !important;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
